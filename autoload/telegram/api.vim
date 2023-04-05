@@ -13,6 +13,13 @@ function! telegram#api#getMe(token, callback) abort
 endfunction
 
 
+function! telegram#api#getUpdates(token, callback) abort
+
+  
+
+endfunction
+
+
 let s:JOB = SpaceVim#api#import('job')
 
 function! s:request(uri, callback, ...) abort
